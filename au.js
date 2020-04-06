@@ -67,7 +67,7 @@ class Node {
     constructor() {
         this.x = 0;
         this.y = 0;
-        this.size = 0;
+        this.size = 100;
         this.flags = 0;
         this.extendedFlags = 0;
         this.isVirus = false;
@@ -408,7 +408,7 @@ class Bot {
         let botNode = {
             x: 0,
             y: 0,
-            size: 0
+            size: 100
         };
 
         for (let i = 0; i < this.cellsIDs.length; i++) {
